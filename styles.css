@@ -55,7 +55,6 @@ body {
 
 .hero {
   width: var(--content-width);
-  height: 144px;
   margin: 0 auto;
   border-radius: 8px;
   overflow: hidden;
@@ -65,8 +64,9 @@ body {
 .hero img {
   display: block;
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
+  /* object-fit: cover; */
+
 }
 
 .sr-only {
@@ -424,7 +424,8 @@ body {
 
   .hero {
     height: auto;
-    aspect-ratio: 192 / 144;
+    /* aspect-ratio: 192 / 144; */
+
   }
 
   .countdown-section h2 {
