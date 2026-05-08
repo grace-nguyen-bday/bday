@@ -504,3 +504,163 @@ body {
   letter-spacing: -0.035em;
   margin-left: 24px;
 }
+
+@media (max-width: 767px) {
+  :root {
+    --content-width: 168px;
+    --text-xs: 8px;
+    --text-sm: 10px;
+    --text-md: 14px;
+    --text-lg: 14px;
+  }
+
+  body {
+    padding: 8px;
+  }
+
+  .screen {
+    width: min(100%, 320px);
+    padding: 12px;
+    min-height: auto;
+    max-height: none;
+    overflow: visible;
+  }
+
+  .left-column,
+  .right-column {
+    width: 100%;
+  }
+
+  .hero,
+  .countdown,
+  .rsvp-card,
+  .task-card,
+  .about-card {
+    width: 100%;
+  }
+
+  .hero {
+    height: 116px;
+  }
+
+  .countdown {
+    gap: 6px;
+  }
+
+  .timebox {
+    height: 34px;
+  }
+
+  .timebox strong {
+    margin-bottom: 4px;
+    font-size: 14px;
+  }
+
+  .timebox span {
+    font-size: 8px;
+  }
+
+  .countdown-section {
+    margin-top: 16px;
+  }
+
+  .secret-note {
+    margin: 8px 0 12px;
+    font-size: 7px;
+  }
+
+  .section-title {
+    margin-left: 8px;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .rsvp-card {
+    min-height: 64px;
+    padding: 12px;
+    column-gap: 6px;
+  }
+
+  .rsvp-copy h3 {
+    margin: 0 0 6px;
+    font-size: 12px;
+  }
+
+  .rsvp-copy p {
+    font-size: 10px;
+  }
+
+  .rsvp-card .arrow {
+    font-size: 18px;
+  }
+
+  .task-card {
+    padding: 12px;
+    margin-bottom: 12px;
+  }
+
+  .task-copy h3 {
+    margin: 0 0 6px;
+    font-size: 12px;
+  }
+
+  .task-copy p {
+    font-size: 10px;
+  }
+
+  .task-top {
+    column-gap: 12px;
+  }
+
+  .static-button {
+    height: 34px;
+    margin-top: 12px;
+    font-size: 10px;
+  }
+
+  .static-button svg {
+    width: 12px;
+    height: 12px;
+  }
+
+  .mail-note {
+    margin-top: 10px;
+    padding: 6px;
+    font-size: 7px;
+  }
+
+  .about-card {
+    padding: 12px;
+    margin-top: 10px;
+    min-height: 82px;
+  }
+
+  .spark {
+    font-size: 14px;
+  }
+
+  .about-card h2 {
+    margin: 0 0 6px;
+    font-size: 12px;
+  }
+
+  .about-card p {
+    font-size: 8px;
+  }
+
+  .hero,
+  .rsvp-card,
+  .section-title,
+  .about-card {
+    margin-bottom: 12px;
+  }
+
+  .about-card {
+    margin-top: 0;
+  }
+
+  .rsvp-card {
+    margin-top: 0;
+  }
+}
