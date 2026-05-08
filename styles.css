@@ -376,7 +376,7 @@ body {
     min-height: auto;
     padding: 24px;
     display: grid;
-    grid-template-columns: var(--left-column-width) minmax(0, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     column-gap: var(--desktop-column-gap);
     align-items: start;
   }
@@ -384,6 +384,7 @@ body {
   .left-column,
   .right-column {
     min-width: 0;
+    width: 100%;
   }
 
   .left-column {
@@ -401,7 +402,7 @@ body {
   .rsvp-card,
   .task-card,
   .about-card {
-    width: var(--content-width-lg);
+    width: 100%;
   }
 
   .hero {
