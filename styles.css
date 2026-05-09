@@ -541,7 +541,14 @@ body {
   }
 
   .hero {
-    height: 116px;
+    aspect-ratio: 3 / 4;
+    height: auto;
+  }
+
+  .hero img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
   }
 
   .countdown {
